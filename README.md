@@ -7,3 +7,25 @@
 - Добавлено число Рошко <br>
 версия 0.0.4 <br>
 - Добавлено число Деборы <br>
+
+## Установка
+
+## Примеры использования
+**Нахождения числа Деборы**
+$${\displaystyle \mathrm {De} ={\frac {t_{\mathrm {c} }}{t_{\mathrm {p} }}} }$$
+На php
+```php
+use Electro\Numbers\Deborah_Number;
+$De = new Deborah_Number(1,2);
+echo $De->calc(); // Вывод 0.5
+```
+
+## Этап разработки
+Сделано
+- [x] Число Атвуда
+- [x] Число Рошко
+- [x] Число Деборы
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+## Документация
+В процессе
