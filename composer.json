@@ -1,0 +1,17 @@
+{
+    "name": "electro/numbers",
+    "description": "Работа с безразмерными величинами из различных областей физики в PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Electro\\Numbers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {}
+}
